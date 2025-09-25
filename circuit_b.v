@@ -4,7 +4,7 @@ module circuit_b(
 );
 
 assign Y = (~C & ~D) |
-           (~A & B) |
+           (A & B) |
            (~D & B);
 
 endmodule
